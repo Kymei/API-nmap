@@ -1,0 +1,1 @@
+DROP DATABASE nmap_scans;

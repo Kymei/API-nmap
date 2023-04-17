@@ -1,0 +1,11 @@
+alembic
+fastapi
+pydantic
+pymysql
+sqlalchemy
+uvicorn
+cryptography
+requests
+gunicorn
+netaddr
+python-nmap
