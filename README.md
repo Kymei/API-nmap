@@ -46,10 +46,10 @@ Answer N to the first question then Y to the others:
 
 Update the root_password variable in the file ```/opt/scaas-scanner-as-a-service/makefile ```
 
-In the file ```/opt/scaas-scanner-as-a-service/script_help/create_database.sql``` update <password>
+In the file ```/opt/scaas-scanner-as-a-service/script_help/create_database.sql``` update 'password'
 ```GRANT ALL ON nmap_scans.* TO 'nmap'@'localhost' IDENTIFIED BY '<password>'```;
 
-In the file ```/opt/scaas-scanner-as-a-service/database.py update``` <password>
+In the file ```/opt/scaas-scanner-as-a-service/database.py update``` 'password'
 ```DB_PASSWORD = "<password>" ```
 
 ### Create database :
