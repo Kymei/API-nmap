@@ -19,12 +19,11 @@ That way, the API is always ready to accept new requests, and the alternatives p
 apt update
 apt install python3 python3-pip python3-venv python-is-python3 curl git
 useradd nmap_api
-git clone git@gitlab.priv.sewan.fr:rd/scaas-scanner-as-a-service.git /opt
+git clone git@github.com:Kymei/API-nmap.git /opt
 chown -R nmap_api /opt/scaas-scanner-as-a-service
 apt install nmap
-Dependencies / Virtual environment
 ```
-
+### Dependencies / Virtual environment
 #### As nmap_api in ```/opt/scaas-scanner-as-a-service``` :
 ```
 python3 -m venv venv
